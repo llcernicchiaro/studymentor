@@ -5,12 +5,10 @@
     min-height: 35rem;
     padding: 15rem 0;
     background: linear-gradient(
-            to bottom,
-            #{fade-out($black, 0.7)} 0%,
-            #{fade-out($black, 0.3)} 75%,
-            $black 100%
-        ),
-        url("../assets/img/bg-masthead.jpg");
+        90deg, rgba(2,0,36,0.4) 0%, 
+        rgba(238,175,24,0.4) 35%, 
+        rgba(0,212,255,0.4) 100%),
+        url("../assets/img/bgtop.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -20,13 +18,15 @@
         font-size: 2.5rem;
         line-height: 2.5rem;
         letter-spacing: 0.8rem;
-        background: linear-gradient(fade-out($white, 0.1), fade-out($white, 1));
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        color: white;
+        text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+        // background: linear-gradient(fade-out($white, 0.1), fade-out($white, 1));
+        // -webkit-text-fill-color: transparent;
+        // background-clip: text;
     }
     h2 {
         max-width: 20rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     @include media-breakpoint-up(md) {
         h1 {
@@ -44,7 +44,7 @@
         }
         h2 {
             max-width: 30rem;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
         }
     }
 }

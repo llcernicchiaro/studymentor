@@ -10237,7 +10237,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.4) 0%, rgba(238, 175, 24, 0.4) 35%, rgba(0, 212, 255, 0.4) 100%), url("../assets/img/bgtop.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10248,14 +10248,12 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
 }
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10275,13 +10273,12 @@ body {
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 5rem;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10316,7 +10313,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/footer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
